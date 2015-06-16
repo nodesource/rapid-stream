@@ -1,0 +1,38 @@
+{
+  "name": "rapid-stream",
+  "version": "1.0.0",
+  "description": "Through stream that processes elements in parallel, with no regard for input order",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test | tap-spec"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {
+    "es6-symbol": "^2.0.1",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "from2": "^1.3.0",
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nodesource/rapid-stream.git"
+  },
+  "keywords": [
+    "rapid",
+    "stream",
+    "parallel",
+    "unordered"
+  ],
+  "homepage": "https://github.com/nodesource/rapid-stream",
+  "bugs": {
+    "url": "https://github.com/nodesource/rapid-stream/issues"
+  }
+}
